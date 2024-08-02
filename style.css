@@ -49,7 +49,7 @@ nav  {
 /*Páinel central "Olá Mundo!"*/
 header {
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     display: flex;
     color: white;
     justify-content: center;
@@ -92,27 +92,26 @@ header span {
 }
 
 /*Sobre mim aqui*/
-article {
+/*article {
     width: 100%;
 }
 article .astronauta {
     position: absolute;
     z-index: -1;
-}
+}*/
 section {
     padding: auto;
     margin: auto;
     margin-bottom: 200px;
     width: auto;
     max-width: 800px;
-    height: 70vh;
+    height: 85vh;
     padding: 0px 50px;
     box-shadow: 0px 5px 10px #18182d;
     border-radius: 10px;
 }
 section h1 {
     display: flex;
-    margin: 40px;
     font-size: 3.5rem;
     font-family:'Raleway', sans-serif;
     font-weight: 300;
@@ -141,7 +140,7 @@ section p{
 /*Projetos*/
 main {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 main h1 {
     display: flex;
@@ -154,7 +153,7 @@ main h1 {
 }
 main .projeto {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: auto;
     width: auto;
     max-width: 1050px;
@@ -167,8 +166,9 @@ main .projeto ul {
     flex-direction: column;
 }
 main .projeto li {
-    margin: 10px;
+    padding: 10%;
     background-color: #fff;
+    margin: 30px;
     padding: 30px 70px;
     border-radius: 5px;
     box-shadow: 0px 0px 20px black;
@@ -189,28 +189,19 @@ main .projeto p {
     margin: 3px 0px 3px 0px;
     font-weight: bolder;
     max-width: 400px;
+    padding-top: 5px;
 }
 
 
 /*Rodapé com os contatos*/
 footer {
     width: auto;
-    margin-top: 20px;
+    margin-top: 5%;
+    padding-top: 10px;
     padding-bottom: 10px;
     background-color: #ffffff95;
 }
-.icon a {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    color: #fff;
-    transition: all ease 1s;
-    text-decoration: none;
-    transform: translate( 0px, -60px);
-}
-.icon a:hover{
-    color: #ffffff95;
-}
+
 .containerContato {
     display: flex;
     justify-content: center;
